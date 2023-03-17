@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    background-color:white;
+}
+.header{
+    background-color: lightgray;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.header h2{
+    color: blueviolet;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.hero{
+    background-color: white;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner{
+    background-color: skyblue;
+    width: 800px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.squarediv{
+    display: flex;
+    justify-content: center;
+}
+.square{
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.banner #button{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.explore{
+    font-weight: bold;
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+a .explore{
+    transition: transform .3s;
+}
+a .explore:hover{
+    background-color:black;
+    transform: scale(1.1);
+}
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
